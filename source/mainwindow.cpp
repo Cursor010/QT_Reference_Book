@@ -35,7 +35,7 @@ MainWindow::~MainWindow()
 bool MainWindow::ConnectDB()
 {
     db = new QSqlDatabase(QSqlDatabase::addDatabase("QSQLITE"));
-    db->setDatabaseName("../db/DataBase.db");
+    db->setDatabaseName("../../QT_Reference_Book/db/DataBase.db");
 
     if(db->open())
     {
