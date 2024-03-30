@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>707</width>
+    <height>559</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Goudy Stout</family>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow
+{
+	background-color:#363535;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="22" column="3">
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="24" column="3">
+     <widget class="QPushButton" name="btnCancel">
+      <property name="font">
+       <font>
+        <family>Swiss921 BT</family>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	color:#fff;
+	background-color: #d32f2f ;	
+	border-radius:5px;
+}
+
+QPushButton:hover 
+{
+	background-color: #c62828 ;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>CANCEL</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="3">
+     <widget class="QPushButton" name="btnUpdate">
+      <property name="font">
+       <font>
+        <family>Swiss921 BT</family>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	color:#fff;
+	background-color: #2196f3 ;	
+	border-radius:5px;
+}
+
+QPushButton:hover 
+{
+	background-color: #1e88e5 ;
+}</string>
+      </property>
+      <property name="text">
+       <string>UPDATE</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="3">
+     <widget class="QPushButton" name="btnClear">
+      <property name="font">
+       <font>
+        <family>Swiss921 BT</family>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	color:#fff;
+	background-color: #ffc107;	
+	border-radius:5px;
+}
+
+QPushButton:hover 
+{
+	background-color: #ffca28;
+}</string>
+      </property>
+      <property name="text">
+       <string>CLEAR</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="3">
+     <widget class="QPushButton" name="btnDelete">
+      <property name="font">
+       <font>
+        <family>Swiss921 BT</family>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	color:#fff;
+	background-color: #d32f2f ;	
+	border-radius:5px;
+}
+
+QPushButton:hover 
+{
+	background-color: #c62828 ;
+}</string>
+      </property>
+      <property name="text">
+       <string>DELETE</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QLabel" name="txtID">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	color:#fff;
+}</string>
+      </property>
+      <property name="text">
+       <string>ID:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0" rowspan="21" colspan="2">
+     <widget class="QListWidget" name="listNames">
+      <property name="font">
+       <font>
+        <family>Source Code Pro</family>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QListWidget
+{
+	border-radius:10px;
+	background-color:#2e2d2d;	
+	color:#fff;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+QListWidget::item:hover 
+{
+	background-color: #403f3f;
+}
+
+QListWidget::item:selected
+ {
+	border:0px;
+	background-color: #5c5c5c;
+}
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QLabel" name="txtTitle">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	color:#fff;
+}</string>
+      </property>
+      <property name="text">
+       <string>TITLE:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="2">
+     <widget class="QLabel" name="txtText">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	color:#fff;
+}</string>
+      </property>
+      <property name="text">
+       <string>CONTENTS:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font/>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	color:#fff;
+}</string>
+      </property>
+      <property name="text">
+       <string>SEARCH:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="2" rowspan="15">
+     <widget class="QPlainTextEdit" name="planText">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPlainTextEdit
+{
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	border-radius:10px;
+	background-color:#2e2d2d;	
+	color:#fff;
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QLineEdit" name="lineID">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+	border-radius:10px;
+	background-color:#2e2d2d;	
+	color:#fff;
+	padding-left:10px;
+	padding-right:10px;
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="txtNames">
+      <property name="font">
+       <font>
+        <family>Segoe UI</family>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel
+{
+	color:#fff;
+}</string>
+      </property>
+      <property name="text">
+       <string>NAMES:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="23" column="3">
+     <widget class="QPushButton" name="btnSave">
+      <property name="font">
+       <font>
+        <family>Swiss921 BT</family>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	color:#fff;
+	background-color: #4caf50;	
+	border-radius:5px;
+}
+
+QPushButton:hover 
+{
+	background-color: #66bb6a ;
+}</string>
+      </property>
+      <property name="text">
+       <string>SAVE</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="3">
+     <widget class="QPushButton" name="btnInsert">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="font">
+       <font>
+        <family>Swiss921 BT</family>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	color:#fff;
+	background-color: #4caf50;	
+	border-radius:5px;
+}
+
+QPushButton:hover 
+{
+	background-color: #66bb6a ;
+}</string>
+      </property>
+      <property name="text">
+       <string>INSERT</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLineEdit" name="lineSearch">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit 
+{
+    border-radius: 10px;
+    background-color: #2e2d2d;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+	padding-left: 10px;
+}</string>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2" rowspan="3">
+     <widget class="QLineEdit" name="lineTitle">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit
+{
+	border-radius:10px;
+	background-color:#2e2d2d;	
+	color:#fff;
+	padding-left:10px;
+	padding-right:10px;
+}</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>707</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="styleSheet">
+    <string notr="true">QStatusBar
+{
+	color:#fff;
+}</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
