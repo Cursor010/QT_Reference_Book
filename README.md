@@ -34,5 +34,3 @@ The project is a simple reference book designed to work with various notes. The 
 + btnDelet — deletes a note;
 + btnSave — saves the added note;
 + btnCancel — closes the note addition mode;
-+ F8 — deleting the file/folder/archive;
-+ F10 — exit the program;
