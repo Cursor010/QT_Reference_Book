@@ -73,7 +73,6 @@ void MainWindow::ShowAllItems()
         }
     }
 }
-
 //------------------------------------------------------------------------------------------------------------
 bool MainWindow::ShowMessageBox(QString question)
 {
@@ -111,7 +110,6 @@ void MainWindow::on_btnInsert_clicked()
 
     ui->btnSave->show();
     ui->btnCancel->show();
-
 }
 //------------------------------------------------------------------------------------------------------------
 void MainWindow::on_btnUpdate_clicked()
