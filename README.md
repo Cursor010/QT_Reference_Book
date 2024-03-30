@@ -15,10 +15,10 @@ The project is a financial manager who knows how to work with basic file operati
 + Information about the selected file;
 
 ## Screenshots:
-![program interface](https://github.com/Cursor010/QT_Reference_Book/tree/main/screenshoots/ProgramIntarface.png)
+![program interface](https://github.com/Cursor010/QT_Reference_Book/tree/main/screenshoots/ProgramInterface.png)
 ![inserting item](https://github.com/Cursor010/QT_Reference_Book/tree/main/screenshoots/InsertingItem.png)
 ![updating item](https://github.com/Cursor010/QT_Reference_Book/tree/main/screenshoots/UpdatingItem.png)
-![deleting file](https://github.com/Cursor010/FIle_Manager/tree/main/screenshots/DeletingFile.png)
+![deleting item](https://github.com/Cursor010/QT_Reference_Book/tree/main/screenshoots/DeletingItem.png)
 ![searching item](https://github.com/Cursor010/FIle_Manager/tree/main/screenshots/SearchingItem.png)
 
 ## Feature: 
