@@ -62,7 +62,7 @@ void MainWindow::ShowAllItems()
             {
                 QString id = query.value(0).toString();
                 QString title = query.value(1).toString();
-                QString date = query.value(3).toString();
+
                 if (title.size() >= 30)
                 {
                     title = title.left(27) + "...";
