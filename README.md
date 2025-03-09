@@ -31,6 +31,6 @@ The project is a simple reference book designed to work with various notes. The 
 + btnInsert — opens the mode for adding notes;
 + btnUpdate — updates the note data;
 + btnClear — clears the title and text fields;
-+ btnDelet — deletes a note;
++ btnDelete — deletes a note;
 + btnSave — saves the added note;
 + btnCancel — closes the note addition mode;
