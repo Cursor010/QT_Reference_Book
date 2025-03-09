@@ -23,15 +23,6 @@ The project is a simple reference book designed to work with various notes. The 
 ![deleting item](https://github.com/Cursor010/QT_Reference_Book/tree/main/Screenshots/DeletingItem.png)
 ![searching item](https://github.com/Cursor010/FIle_Manager/tree/main/Screenshots/SearchingItem.png)
 
-| Main Screen | Inserting item | Updating item |
-|-------------|------------|-----------------|
-| ![program interface](https://github.com/Cursor010/QT_Reference_Book/tree/main/Screenshots/ProgramInterface.png) | ![inserting item](https://github.com/Cursor010/QT_Reference_Book/tree/main/Screenshots/InsertingItem.png) | ![updating item](https://github.com/Cursor010/QT_Reference_Book/tree/main/Screenshots/UpdatingItem.png) |
-
-| Deleting item | Searching item | Notes |
-|----------|--------------|-------|
-| ![Settings](https://github.com/Cursor010/ABL-fit/blob/main/img/Settings.png) | ![AddTrain](https://github.com/Cursor010/ABL-fit/blob/main/img/AddTrain.png) | ![Notes](https://github.com/Cursor010/ABL-fit/blob/main/img/Notes.png) |
-
-
 ## Feature: 
 + Easy to implement;
 + А dynamic application adapted to changing the size;
