@@ -17,11 +17,11 @@ The project is a simple reference book designed to work with various notes. The 
 + Button-based control segment;
 
 ## Screenshots:
-![program interface](https://github.com/Cursor010/QT_Reference_Book/tree/main/Screenshots/ProgramInterface.png)
-![inserting item](https://github.com/Cursor010/QT_Reference_Book/tree/main/Screenshots/InsertingItem.png)
-![updating item](https://github.com/Cursor010/QT_Reference_Book/tree/main/Screenshots/UpdatingItem.png)
-![deleting item](https://github.com/Cursor010/QT_Reference_Book/tree/main/Screenshots/DeletingItem.png)
-![searching item](https://github.com/Cursor010/FIle_Manager/tree/main/Screenshots/SearchingItem.png)
+![program interface](https://github.com/Cursor010/QT_Reference_Book/blob/main/Screenshots/ProgramInterface.png)
+![inserting item](https://github.com/Cursor010/QT_Reference_Book/blob/main/Screenshots/InsertingItem.png)
+![updating item](https://github.com/Cursor010/QT_Reference_Book/blob/main/Screenshots/UpdatingItem.png)
+![deleting item](https://github.com/Cursor010/QT_Reference_Book/blob/main/Screenshots/DeletingItem.png)
+![searching item](https://github.com/Cursor010/QT_Reference_Book/blob/main/Screenshots/SearchingItem.png)
 
 ## Feature: 
 + Easy to implement;
